@@ -1,0 +1,126 @@
+/* Основні налаштування */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #0b0b0b; /* Глибокий чорний */
+    color: #e0e0e0; /* Світло-сірий текст */
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+/* Шапка та навігація (Flexbox) */
+header {
+    background-color: #1a1a1a;
+    padding: 20px;
+    border-bottom: 3px solid #ff004c; /* Неонова лінія */
+    text-align: center;
+}
+
+header h1 {
+    color: #ff004c;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 15px;
+}
+
+nav ul {
+    display: flex; /* Обов'язковий Flexbox за методичкою */
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+}
+
+nav li {
+    margin: 0 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+
+
+/* Контент */
+main {
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 20px;
+    background: #151515;
+    border-radius: 10px;
+}
+
+h2, h3 {
+    color: #ff004c;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 20px auto;
+    border: 2px solid #333;
+    border-radius: 5px;
+}
+
+/* Таблиця характеристик */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 25px 0;
+    background: #222;
+}
+
+th, td {
+    border: 1px solid #444;
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #ff004c;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #2a2a2a;
+}
+
+/* Цитата */
+blockquote {
+    font-style: italic;
+    border-left: 5px solid #ff004c;
+    padding-left: 20px;
+    margin: 30px 0;
+    font-size: 1.2em;
+    color: #ccc;
+}
+
+/* Галерея команди (Flexbox) */
+.gallery-container {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.team-member {
+    flex: 1;
+    min-width: 250px;
+    background: #222;
+    padding: 15px;
+    border-radius: 8px;
+    border-bottom: 3px solid #ff004c;
+}
+
+/* Підвал */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #111;
+    color: #666;
+    margin-top: 50px;
+    font-size: 0.9em;
+}
