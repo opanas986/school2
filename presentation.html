@@ -1,0 +1,130 @@
+
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <title>Наша команда</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #1e1e2f, #3a3a5f);
+            color: white;
+            text-align: center;
+        }
+
+        header {
+            padding: 40px 20px;
+        }
+
+        h1 {
+            font-size: 42px;
+        }
+
+        .description {
+            max-width: 700px;
+            margin: 20px auto;
+            font-size: 18px;
+            color: #ccc;
+        }
+
+        .team {
+            display: flex;
+            justify-content: center;
+            gap: 40px;
+            margin: 50px 20px;
+            flex-wrap: wrap;
+        }
+
+        .card {
+            background: #2a2a40;
+            border-radius: 20px;
+            padding: 20px;
+            width: 260px;
+            transition: 0.3s;
+        }
+
+        .card:hover {
+            transform: scale(1.05);
+            box-shadow: 0 0 20px rgba(255,255,255,0.2);
+        }
+
+        .card img {
+            width: 100%;
+            border-radius: 15px;
+        }
+
+        .name {
+            font-size: 22px;
+            margin-top: 15px;
+        }
+
+        .role {
+            font-size: 16px;
+            color: #aaa;
+        }
+
+        .about {
+            margin-top: 10px;
+            font-size: 14px;
+            color: #ddd;
+        }
+
+        footer {
+            margin-top: 50px;
+            padding: 20px;
+            font-size: 14px;
+            color: #aaa;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Наша команда </h1>
+    <div class="description">
+        Ми — команда, яка працювала над створенням сучасного вебсайту. 
+        У процесі роботи кожен учасник виконував свою роль, що дозволило нам 
+        досягти якісного результату. Наш проєкт поєднує дизайн, структуру та зручність використання.
+    </div>
+</header>
+
+<section class="team">
+
+    <div class="card">
+        <img src="you.jpg" alt="Я">
+        <div class="name">Я</div>
+        <div class="role">Розробник основи сайту</div>
+        <div class="about">
+            Відповідав за створення структури сайту за допомогою HTML, 
+            налаштування основних блоків та логіки розміщення елементів.
+        </div>
+    </div>
+
+    <div class="card">
+        <img src="vanya.jpg" alt="Ваня">
+        <div class="name">Ваня</div>
+        <div class="role">Створення презентації</div>
+        <div class="about">
+            Підготував презентацію проєкту, описав ідею, мету та результати роботи команди.
+        </div>
+    </div>
+
+    <div class="card">
+        <img src="prohor1.jpg" alt="Прохор">
+        <div class="name">Прохор</div>
+        <div class="role">Дизайн та стилі</div>
+        <div class="about">
+            Відповідав за зовнішній вигляд сайту: кольори, шрифти, анімації 
+            та загальний стиль інтерфейсу.
+        </div>
+    </div>
+
+</section>
+
+<footer>
+    © 2026 Наша команда | Навчальний проєкт
+</footer>
+
+</body>
+</html>
